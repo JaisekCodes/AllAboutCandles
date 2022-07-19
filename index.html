@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>All About Candles</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <header>
+            <img class="pic" src="transparent.png">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="scented.html">Scented Candles</a></li>
+                    <li><a href="unscented.html">Unscented Candles</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>contact</button></a>
+        </header>
+        <div id="particles-js"></div>
+                <script src="particles.js"></script>
+                <script src="app.js"></script>
+        </div>
+        <div class="swiperstuff">
+          <div class="findout">
+    <h1>To find out more about our candles, click the about! Or browse around to find a candle you like</h1>
+    <hr></hr>
+  </div>
+  
+        <div class="container">
+            
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="candle1.jpg" /></div>
+      <div class="swiper-slide"><img src="candle2.jpg" /></div>
+      <div class="swiper-slide"><img src="candle3.jpg" /></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+              autoplay: {
+                delay: 3000
+                ,disableOnInteration: false,
+              },
+  loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+        </script>
+</div>
+    </body>
+</html>

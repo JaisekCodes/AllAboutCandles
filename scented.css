@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    max-height: 180px
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+
+}
+.nav-links li a:hover {
+    color: red;
+    }
+
+button {
+        padding: 9px 25px;
+        background-color: rgb(169, 0, 0)
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-family: "Montserrat", sans-serif;
+        
+    }
+button:hover {
+    background-color: rgba(169, 0, 0, 0.8)
+    
+}
+
+.pic {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+body {
+    background: #0E0E0E;
+}
+header {
+    background-color: #0B0B0B;
+}
+
+.maintext {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #f3f3f3;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    max-width: 1500px;
+    margin-top: 50px;
+}
+.secondtext {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F75252;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    max-width: 1500px;
+    padding: 40px;
+    max-width: 40%;
+    
+}
+.thirdtext {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f3f3f3;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    max-width: 1500px;
+    padding: 20px;
+}
+
+
+.line1 {
+    border-color: #EE4646;
+    max-width: 55%;
+    margin: auto;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f3f3f3;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    max-width: 1500px;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+
+}
+
+.funky {
+    max-width: 25rem;
+    min-width: 25rem;
+    max-height: 25rem;
+    min-height: 25rem;
+    margin-bottom: 15rem;
+}
+
+.above1 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+#particles-js {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    
+}
